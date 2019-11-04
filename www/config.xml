@@ -1,0 +1,10 @@
+<widget id="com.example.hello" version="0.0.1">
+    <name>VILLA LIFE</name>
+    <description>
+      menu      
+    </description>
+    <author email="dev@callback.apache.org" href="http://cordova.io"> 
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    </widget>

@@ -1,0 +1,630 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Villa Life APP</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        a:link{
+            color:black;
+            text-decoration:none;
+        }
+
+        a:visited{
+            color:black;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color:black;
+            text-decoration: none;
+        }
+
+        a:active{
+            color:black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page">
+        <div data-role="header"  data-position="fixed" style="background: -webkit-linear-gradient(rab(140,142,144),rab(25,24,44));">
+            <h1 style="color:brown;text-align: center;font-size: 24px;">Villa Life </h1>
+            <a class="ui-btn ui-btn-right ui-btn-icon-left ui-icon-info ui-btn-icon-notext ui-corner-all" style="margin: 12px;"></a>
+        </div>
+        <div style="margin-top: 30px;" role="page-main" class="ui-content" >
+            <div is="grid" class="ui-grid-b" style="height:130px" id="page-main">
+                <div class="ui-block-a"  style="height:100%;text-align: center;">
+                    <a href="#page-present"><img src="images/spaghetti.png"  style="width: 60px;margin: 5px 15px 5px 18px " ></a>
+                    <p><h5 style="text-align: center;margin-top: -5px;"> spaghetti</h5></p>
+                    
+                </div> 
+                <div class="ui-block-b" style="height:100%;text-align: center;">
+                    <a href="#p2"><img src="images/risotto.png" style="width: 60px;margin-left:10px;"></a>
+                   <h5 style="text-align: center ; margin-top: -5px; margin-left:20px">risotto</h5>
+                </div> 
+                <div class="ui-block-c" style="height:100%;text-align: center;">
+                    <a href="#p3"><img src="images/omelette.png" style="width: 60px;margin: 5px 15px 5px 18px"></a>
+                   <h5 style="text-align: center;margin-top: -5px;">curry rice</h5>
+                </div>
+            </div>
+            <div is="grid" class="ui-grid-b" style="height:130px">
+                <div class="ui-block-a" style="height:130%;text-align: center;">
+                    <a href="#p4"><img src="images/milkshake.png" style="width: 70px;margin: 0px 10px 0px 12px"></a>
+                   <h5 style="text-align: center;margin-top: -5px;">milk tea</h5>
+                </div> 
+                <div class="ui-block-b" style="height:100%;text-align: center;">
+                    <a href="#p5"> <img src="images/juice.png" style="width: 60px;margin: 0px 15px 5px 25px" ></a>
+                   <h5 style="text-align: center ; margin-top: -5px; margin-left:20px">citron tea</h5>
+                </div> 
+                <div class="ui-block-c" style="height:100%;text-align: center;">
+                    <a href="#p6"><img src="images/smoothie.png" style="width: 70px;margin-left: 6px;"></a>
+                   <h5 style="text-align: center;margin-top: -5px;">slush</h5>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="page-present" data-role="page">
+        <div data-role="header">
+            <h1>Villa Life</h1>
+        </div><!-- /header -->
+            
+        <div role="main" class="ui-content">
+            <u1 data-role="listview" data-inset="true" data-divider-theme="a"></u1>
+                <h1><li style="text-align: center; background: -webkit-linear-gradient(left,yellow,red); color:green" data-role="list-divider">餐點區</li></h1>
+            </u1>
+
+            <ul data-role="listview" data-inset="true">
+                    <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                <li><a href="#p1-1">奶油燻雞義大利麵</a></li>
+                <li><a href="#p1-2">茄汁野菇義大利麵</a></li>
+                <li><a href="#p1-3">蛤蠣義大利麵</a></li>
+                <li><a href="#p1-4">鮮蝦義大利麵</a></li>
+                <li><a href="#p1-5">干貝明太子義大利麵</a></li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+            </ul>
+        </div><!-- /content -->
+            
+        <div data-role="footer">
+            <h4> @2019 Villa版權所有 </h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p1-1">
+        <div data-role="header">
+            <a href="#page-present" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>奶油燻雞義大利麵</h1>
+        </div><!-- /header -->
+                
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="spaghtti/s1.JPG" alt="" width="720" height="480"></div>
+            <h3><p style="text-align: center; color:darkgray; background:darkgreen;">口味</p></h3>
+            <form>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">奶油
+                </label>
+            </form>
+            <button data-role="content">送出</button>
+        </div><!-- /content -->
+                
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p1-2">
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>茄汁野菇義大利麵</h1>
+        </div><!-- /header -->
+                    
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="spaghtti/s2.JPG" alt="" width="720" height="480"></div>
+            <h3><p style="text-align: center; color:darkgray; background:darkgreen;">口味</p></h3>
+            <form>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">紅醬
+                </label>
+            </form>
+            <button data-role="content">送出</button>
+        </div><!-- /content -->
+                    
+        <div data-role="footer">
+            <h4> @2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p1-3">
+        <div data-role="header">
+        <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>蛤蠣義大利麵</h1>
+        </div><!-- /header -->
+                        
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="spaghtti/s3.JPG" alt=""width="720" height="480"></div>
+            <h3><p style="text-align: center; color:darkgray; background:darkgreen;">口味</p></h3>
+            <form>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">奶油
+                </label>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">茄汁
+                </label>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">青醬
+                </label>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">蒜香
+                </label>
+            </form>
+            <button data-role="content">送出</button>
+        </div><!-- /content -->
+                        
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p1-4">
+        <div data-role="header">
+           <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+           <h1>鮮蝦義大利麵</h1>
+        </div><!-- /header -->
+                            
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="spaghtti/s4.JPG" alt=""width="720" height="480"></div>
+            <h3><p style="text-align: center; color:darkgray; background:darkgreen;">口味</p></h3>
+            <form>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">奶油
+                </label>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">茄汁
+                </label>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">青醬
+                </label>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">蒜香
+                </label>
+            </form>
+            <button data-role="content">送出</button>
+        </div><!-- /content -->
+                            
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p1-5">
+        <div data-role="header">
+           <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+           <h1>干貝明太子義大利麵</h1>
+        </div><!-- /header -->
+                            
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="spaghtti/s5.JPG" alt=""width="720" height="480"></div>
+            <h3><p style="text-align: center; color:darkgray; background:darkgreen;">口味</p></h3>
+            <form>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">奶油
+                </label>
+            </form>
+            <button data-role="content">送出</button>
+        </div><!-- /content -->
+                            
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+            
+
+
+    <div id="p2" data-role="page">
+        <div data-role="header">
+            <h1>Villa Life</h1>
+        </div><!-- /header -->
+            
+        <div role="main" class="ui-content">
+            <u1 data-role="listview" data-inset="true" data-divider-theme="a"></u1>
+                <h1><li style="text-align: center; background: -webkit-linear-gradient(left,yellow,red); color:green" data-role="list-divider">餐點區</li></h1>
+            </u1>
+
+            <ul data-role="listview" data-inset="true">
+                    <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                <li><a href="#p2-1">奶油義式燻雞燉飯</a></li>
+                <li><a href="#p2-2">奶油招牌海鮮燉飯</a></li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+            </ul>
+        </div><!-- /content -->
+            
+        <div data-role="footer">
+            <h4> @2019 Villa版權所有 </h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p2-1">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>奶油義式燻雞燉飯</h1>
+        </div><!-- /header -->
+                    
+        <div role="main" class="ui-content">
+            <div style="text-align: center "> <img  src="risotto/r1.JPG" alt="" width="720" height="480"></div>
+            <h3><p style="text-align: center; color:darkgray; background:darkgreen;">口味</p></h3>
+            <form>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">奶油
+                </label>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">青醬
+                </label>
+            </form>
+            <button data-role="content">送出</button>
+        </div><!-- /content -->
+                    
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p2-2">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>奶油招牌海鮮燉飯</h1>
+        </div><!-- /header -->
+                        
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="risotto/r2.JPG" alt=""width="720" height="480"></div>
+            <h3><p style="text-align: center; color:darkgray; background:darkgreen;">口味</p></h3>
+            <form>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">奶油
+                </label>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">青醬
+                </label>
+            </form>
+            <button data-role="content">送出</button>
+        </div><!-- /content -->
+                        
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div id="p3" data-role="page">
+        <div data-role="header">
+            <h1>Villa Life</h1>
+        </div><!-- /header -->
+            
+        <div role="main" class="ui-content">
+            <u1 data-role="listview" data-inset="true" data-divider-theme="a"></u1>
+                <h1><li style="text-align: center; background: -webkit-linear-gradient(left,yellow,red); color:green" data-role="list-divider">餐點區</li></h1>
+            </u1>
+
+            <ul data-role="listview" data-inset="true">
+                    <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                <li><a href="#p3-1">日式豬排咖哩飯</a></li>
+                <li><a href="#p3-2">什錦海鮮咖哩飯</a></li>
+                <li><a href="#p3-3">泰式椒麻雞</a></li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+            </ul>
+        </div><!-- /content -->
+            
+        <div data-role="footer">
+            <h4> @2019 Villa版權所有 </h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p3-1">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>日式豬排咖哩飯</h1>
+        </div><!-- /header -->
+                    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"> <img  src="curry/cu1.JPG" alt="" width="720" height="480"></div>
+            <h1><blockquote style="text-align: center; color:white; background:goldenrod;">
+                咖哩另附 </br>
+                辣度:小辣
+            </blockquote></h1>
+        </div><!-- /content -->
+                    
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p3-2">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>什錦海鮮咖哩飯</h1>
+        </div><!-- /header -->
+                        
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="curry/cu2.JPG" alt=""width="720" height="480"></div>
+        </div><!-- /content -->
+                        
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p3-3">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>泰式椒麻雞</h1>
+        </div><!-- /header -->
+                        
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="curry/cu3.JPG" alt=""width="720" height="480"></div>
+            <h1><p style="text-align: center;color:white; background:goldenrod;">辣度:小辣</p></h1>
+        </div><!-- /content -->
+                        
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div id="p4" data-role="page">
+        <div data-role="header">
+            <h1>Villa Life</h1>
+        </div><!-- /header -->
+            
+        <div role="main" class="ui-content">
+            <u1 data-role="listview" data-inset="true" data-divider-theme="a"></u1>
+                <h1><li style="text-align: center; background: -webkit-linear-gradient(left,yellow,red); color:green" data-role="list-divider">餐點區</li></h1>
+            </u1>
+
+            <ul data-role="listview" data-inset="true">
+                    <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                <li><a href="#p4-1">抹茶拿鐵</a></li>
+                <li><a href="#p4-2">巧克力拿鐵</a></li>
+                <li><a href="#p4-3">棉花糖熱可可</a></li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+            </ul>
+        </div><!-- /content -->
+            
+        <div data-role="footer">
+            <h4> @2019 Villa版權所有 </h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p4-1">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>抹茶拿鐵</h1>
+        </div><!-- /header -->
+                    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"> <img  src="milk/m2.jpg" alt="" width="720" height="480"></div>
+            <h3><p style="text-align: center; color:white; background:darkgreen;">溫度</p></h3>
+            <form>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">熱飲
+                </label>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">冷飲
+                </label>
+            </form>
+            <button data-role="content">送出</button>
+        </div><!-- /content -->
+                    
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p4-2">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>巧克力拿鐵</h1>
+        </div><!-- /header -->
+                        
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="milk/m3.JPG" width="680" height="480"></div>
+            <h3><p style="text-align: center; color:white; background:darkgreen;">溫度</p></h3>
+            <form>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">熱飲
+                </label>
+                <label>
+                    <input type="radio" name="radio-choice-0" id="radio-choice-0a">冷飲
+                </label>
+            </form>
+            <button data-role="content">送出</button>
+        </div><!-- /content -->
+                        
+        <div data-role="footer">
+            <h4>@@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p4-3">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>棉花糖熱可可</h1>
+        </div><!-- /header -->
+                        
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="milk/m4.JPG" alt=""width="680" height="540"></div>
+            <h1><p style="text-align: center;color:white; background:crimson">限熱飲</p></h1>
+        </div><!-- /content -->
+                        
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div id="p5" data-role="page">
+        <div data-role="header">
+            <h1>Villa Life</h1>
+        </div><!-- /header -->
+            
+        <div role="main" class="ui-content">
+            <u1 data-role="listview" data-inset="true" data-divider-theme="a"></u1>
+                <h1><li style="text-align: center; background: -webkit-linear-gradient(left,yellow,red); color:green" data-role="list-divider">餐點區</li></h1>
+            </u1>
+
+            <ul data-role="listview" data-inset="true">
+                    <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                <li><a href="#p5-1">水果柚子茶</a></li>
+                <li><a href="#p5-2">四季鮮水果茶</a></li>
+                <li><a href="#p5-3">熱帶風情柚子茶</a></li>
+            </ul>
+        </div><!-- /content -->
+            
+        <div data-role="footer">
+            <h4> @2019 Villa版權所有 </h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p5-1">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>水果柚子茶</h1>
+        </div><!-- /header -->
+                    
+        <div role="main" class="ui-content">
+            <div style="text-align: center ;"> <img  src="citron/ci1.JPG" alt="" width="580" height="480"></div>
+            <h1><blockquote style="text-align:center;color: rgb(251, 255, 0) ;background: sandybrown;">
+                飲用前攪拌均勻<br>
+                口感更加佳
+            </blockquote></h1>
+        </div><!-- /content -->
+                    
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p5-2">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>四季鮮水果茶</h1>
+        </div><!-- /header -->
+                        
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="citron/ci2.JPG" alt="" width="580" height="480"></div>
+            <h1><blockquote style="text-align:center;color: rgb(251, 255, 0) ;background: sandybrown;">
+                    飲用前攪拌均勻<br>
+                    口感更加佳
+            </blockquote></h1>
+        </div><!-- /content -->
+                        
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p5-3">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>熱帶風情柚子茶</h1>
+        </div><!-- /header -->
+                        
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="citron/ci3.JPG" alt=""width="580" height="480"></div>
+            <h1><blockquote style="text-align:center;color: rgb(251, 255, 0) ;background: sandybrown;">
+                    飲用前攪拌均勻<br>
+                    口感更加佳
+            </blockquote></h1>
+        </div><!-- /content -->
+                        
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div id="p6" data-role="page">
+        <div data-role="header">
+            <h1>Villa Life</h1>
+        </div><!-- /header -->
+            
+        <div role="main" class="ui-content">
+            <u1 data-role="listview" data-inset="true" data-divider-theme="a"></u1>
+                <h1><li style="text-align: center; background: -webkit-linear-gradient(left,yellow,red); color:green" data-role="list-divider">餐點區</li></h1>
+            </u1>
+
+            <ul data-role="listview" data-inset="true">
+                    <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                <li><a href="#p6-1">青蘋蘆薈凍飲</a></li>
+                <li><a href="#p6-2">雙梅特調雪泥</a></li>
+                <li><a href="#p6-3">OREO可可雪泥</a></li>
+            </ul>
+            <h1 style="text-align: center;color: black ;background:yellow;">此系列為冰沙系列</h1>
+        </div><!-- /content -->
+            
+        <div data-role="footer">
+            <h4> @2019 Villa版權所有 </h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+    
+    <div data-role="page" id="p6-1">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>青蘋蘆薈凍飲</h1>
+        </div><!-- /header -->
+                    
+        <div role="main" class="ui-content">
+            <div style="text-align: center"> <img  src="slush/sl1.JPG" alt="" width="580" height="480"></div>
+            <h2><p style="text-align: center;color:red ;background:greenyellow">內有蘋果丁和蘆薈丁</p></h2>
+        </div><!-- /content -->
+                    
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p6-2">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>雙梅特調雪泥</h1>
+        </div><!-- /header -->
+                        
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="slush/sl2.JPG" alt="" width="550" height="300"></div>
+            <h2><p style="text-align: center;color:red ;background:khaki">草莓+蔓越莓的組合</p></h2>
+        </div><!-- /content -->
+                        
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="p6-3">
+    
+        <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            <h1>OREO可可雪泥</h1>
+        </div><!-- /header -->
+                        
+        <div role="main" class="ui-content">
+            <div style="text-align: center ; "> <img  src="slush/sl3.JPG" alt="" width="720" height="480"></div>
+            <h2><p style="text-align: center;color:white ;background:blue">內含OREO碎片</p></h2>
+        </div><!-- /content -->
+                        
+        <div data-role="footer">
+            <h4>@2019 Villa版權所有</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+</body>
+
+</html>
